@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Display&display=swap');
+
+body{
+    font-size: 24px;
+    font-family: "Great Vibes";
+    font-style: normal;
+    color: #000000;
+    background-color: aqua;
+    margin: 0px;
+    background-attachment: fixed; 
+    background-position: center;
+
+} 
+
+.card1{
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgba(255, 138, 138, 0.1);
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 5px 20px 4px rgba(0, 0, 0, 0.3);
+}
+
+.foto1{
+    background-image: url(../img/Dall-E.webp);
+    background-size: cover; 
+    height: 144px;
+    box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.nav{
+    height: 144px;
+}
+
+button{
+    height: 37px;
+    width: 124px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Great Vibes";
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    background-color: #FFD3D3;
+}
+button:hover{
+    background-color: #f78181;
+}
+
+button:active{
+    background-color: #f78181;
+}
+
+#btnfoto{
+    margin: 17px 0px 22px 20px;
+}
+
+#btnmap{
+    margin: 17px 20px 22px 0px;
+    float: right;
+}
+
+#btnpoem{
+    margin: 0px auto;
+    display: block; 
+}
+
+.foto2{
+    width: 200vw;
+    margin: -144px auto;
+    aspect-ratio: 15/10;
+    z-index: -1;
+    background-image: url(../img/PXL_20241116_181123727\ копия\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50% )
+}
+
+.foto3{
+    background-image: url(../img/Dall-E.webp);
+    background-size: cover; 
+    margin-top: calc(200vw*0.4);
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: -1px -5px 10px 1px rgba(0, 0, 0, 0.5);
+    
+}
+
+.card2{
+    font-size: 40px;
+    font-weight: 600;
+    background-color: rgba(255, 138, 138, 0.1);
+    max-width: 450px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: -1px -5px 10px 1px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+
+#name{
+    text-align: center;
+    background-color: #ffa6a5;
+    margin-top: calc(200vw*0.4+20px);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0px 20px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card3{
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #ffd7d6;
+    max-width: 450px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 5px 20px 10px 20px;
+    margin-bottom: 0px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+#psss{
+    text-align: right;
+    
+    font-weight: 600
+}
+
+#map{
+    border-radius: 7px;
+    overflow: hidden;
+    border: 3px solid #ffd7d6;;
+    padding: 0px;
+    
+}
+
+
