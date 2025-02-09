@@ -277,7 +277,6 @@ button:active{
 
 .bkimusik1{
     background-image: url(../img/SaveInta.com_465088141_567476542332847_4353655773117093573_n.jpg);
-    margin: -100px auto;
 }
 
 .map{
@@ -295,7 +294,7 @@ button:active{
     border: 3px solid #ffd7d6;
     width: 89%;
     aspect-ratio: 16/9;
-    margin: 20px auto 100px 20px;
+    margin: 20px auto 20px 20px;
     border-radius: 8px;
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.5);
 }
